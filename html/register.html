@@ -32,9 +32,59 @@
              </nav>
             
             <h3><i class="fa-solid fa-paw"></i>Register<i class="fa-solid fa-paw"></i></h3>
-        <div>
-        <!--<h2>Registery</h2>-->
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea molestias eligendi odit, fugit rem, autem placeat molestiae reiciendis quisquam est incidunt amet doloribus itaque iste, sint omnis magnam sequi cum ipsum animi! Dolore nihil commodi esse non? Explicabo totam molestiae maiores ad magni, obcaecati dicta vitae perspiciatis rerum minus repellendus, esse, aut necessitatibus! Voluptates ab, quia tempore exercitationem dolor maxime omnis similique illo, asperiores, nemo saepe voluptas culpa! Eius nesciunt nihil velit quisquam, atque odit earum ullam, similique consectetur nemo amet dignissimos eveniet architecto voluptatum tempora dolores non tempore saepe. Libero officia rem est rerum, laborum quisquam dolore temporibus iure culpa, fuga quo odio distinctio similique iste autem, totam ullam! Tempora consequatur qui nemo totam obcaecati soluta, repellat, doloribus illum dolorem dolor laborum? Voluptatem nam fuga iure recusandae dolor consequatur neque delectus quae et ratione! Facere cupiditate culpa, itaque ut accusantium architecto obcaecati ratione rerum optio qui, voluptatibus saepe neque repellendus sit officia magni! Cupiditate quasi aliquam quibusdam saepe sit nulla corrupti, animi repellendus provident maxime ad, rem, consectetur officia beatae facere. Nisi voluptatibus alias fugit amet iusto esse est ullam eligendi, voluptatem odit. Autem cumque, distinctio ab accusamus sed ipsum fugit, sint, vel neque laboriosam rerum sunt impedit molestiae!</p>
+        <div class="container">
+
+            <div class="form-container">
+
+                <div class="form-element">
+                    <label>Name:</label>
+                    <input type="text" id="petName" placeholder="Enter Pets Name">
+                </div>
+
+                <div class="form-element">
+                    <label>Age:</label>
+                    <input type="number" id="petAge">
+                </div>
+
+                <div class="form-element">
+                    <label>Gender:</label>
+                    <input type="text" id="petGender" placeholder="Enter Pets gender">
+                </div>
+
+                <div class="form-element">
+                    <label>Type:</label>
+                    <input type="text" id="petType" placeholder="Is it a dog or cat?">
+                </div>
+
+                <!--<div class="form-element">
+                    <label>Service:</label>
+                    <input type="text" id="petService" placeholder="Enter Pets services desired">
+                </div>-->
+                <div class="form-element">
+                    <label>Owner Name:</label>
+                    <input type="text" id="petOwner" placeholder="Enter Owner Name">
+                </div>
+                <div class="form-element">
+                    <label>Owner Phone Number:</label>
+                    <input type="number" id="ownerPhone" placeholder="Enter phone number">
+
+                </div>
+                <div>
+                    <label>Service: </label>
+                    <select id="petService">
+                       <option value="" selected disabled>-- Select an option --</option>
+                       <option value="daycare">Daycare</option>
+                       <option value="grooming">Grooming</option>
+                       <option value="boarding">Boarding</option>
+                       <option value="nailTrimming">Nail Trimming</option>
+                       <option value="training">Training</option>
+                       <option value="vaccine">Vaccine</option>
+                    </select>
+                </div>
+                <button onclick="register();">Register</button>
+            </div>
+            
+            
 
         </div>
 

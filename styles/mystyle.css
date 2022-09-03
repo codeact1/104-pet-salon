@@ -46,17 +46,25 @@ h3{
     text-align: center;
     font-family: 'Dancing Script', cursive;
 }
-.container{
+.index-container{
     width: 80%;
-    height: 400px;
+    height: 300px;
     display: flex;
     font-size: 20px;
     margin-left: 10%;
     
 }
-footer{
+/*register.html*/
+.form-container{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+/*footer{
     width: 90%;
     height: 60px;
     margin-left: 40px;
     border: 5px solid #555;
-}
+}*/
