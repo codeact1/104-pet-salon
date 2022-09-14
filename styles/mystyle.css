@@ -62,6 +62,19 @@ h3{
     font-size: 30px;
 }
 
+#pets{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.pet{
+    background-color:
+    border:
+    padding
+    border-radius
+}
+
 /*footer{
     width: 90%;
     height: 60px;
